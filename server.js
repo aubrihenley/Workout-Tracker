@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 
 const PORT = process.env.PORT || 3000;
 
-const Workout = require("./workout.js");
+const Workout = require("./models/workout");
 const app = express();
 
 app.use(logger("dev"));
