@@ -18,6 +18,7 @@ router.get("/", async (req, res) => {
 
 //route to add to most recent workout
 router.put("/:id", async ({ params, body }, res) => {
+  console.log(body);
   try {
     const updateWorkout = await Workout.findByIdAndUpdate(
       params.id,
@@ -42,8 +43,13 @@ router.post("/", async ({ body }, res) => {
 
 //route to combine duration of last 7 workouts
 router.get("/range", async (req, res) => {
+  console.log(res, "get duration");
   try {
-    const workouts = await Workout.find({});
+    const workouts = await Workout.aggregate([
+      {
+        $addFields: { totalDuration: { $sum: "$exercises.duration" } },
+      },
+    ]);
     res.status(200).json(workouts);
   } catch (err) {
     res.status(500).json(err);
