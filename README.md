@@ -39,9 +39,9 @@
   * If you have any questions regarding the application, please reach out to **Aubri Henley** (creator), at their GitHub profile located here: **https://github.com/aubrihenley**, or via email at **aubri.henley@gmail.com**.
 
   ## Screenshots
-  ![Image 1 of application:]()
-  ![Image 2 of application:]()
-  ![Image 3 of application:]()
+  ![Image of application home page:](https://github.com/aubrihenley/Workout-Tracker/blob/main/public/images/home-page.png)
+  ![Image of application adding exercise:](https://github.com/aubrihenley/Workout-Tracker/blob/main/public/images/add-exercise.png)
+  ![Image of application dashboard:](https://github.com/aubrihenley/Workout-Tracker/blob/main/public/images/dashboard.png)
   
 
 
