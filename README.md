@@ -19,7 +19,7 @@
   * To view the live url link, please visit the Heroku link found below. This has full functionality for a single-user. To view the source files, please refer to the Github repository for this application, also found below. 
 
   * [Github Repository](https://github.com/aubrihenley/Fitness-Tracker)
-  * [Herkou](https://rocky-everglades-83809.herokuapp.com/?id=6169e181daaa4f00169ba7da)
+  * [Herkou](https://pure-cliffs-13829.herokuapp.com/)
 
   ## Installation
   1. Clone Repo
